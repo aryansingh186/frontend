@@ -5,7 +5,7 @@ import { toast } from "sonner";
 import { useParams } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart } from "../../redux/Slices/cartSlice";
+import { addToCart } from "../../Redux/Slices/cartSlice";
 import ProductGrid from "./ProductGrid";
 
 const Productdetails = () => {
