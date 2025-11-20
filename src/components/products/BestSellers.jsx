@@ -3,7 +3,7 @@ import axios from "axios";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { toast } from "sonner";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart } from "../../redux/Slices/cartSlice";
+import { addToCart } from "../../Redux/Slices/cartSlice";
 
 const BestSeller = () => {
   const dispatch = useDispatch();
